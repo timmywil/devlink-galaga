@@ -9,13 +9,18 @@ html, body {
 	overflow: hidden;
 	background: #000;
 	text-align: center;
+	font-family: monaco, Courier, serif;
 }
 
 h1 {
 	color: white;
-	font: 4em monaco;
+	font-size: 3em;
 }
 
 .game {
 	display: inline-block;
+}
+
+.game p {
+	color: white;
 }

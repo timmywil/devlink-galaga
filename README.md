@@ -8,5 +8,6 @@ This game is available to play [here](http://timmywil.github.io/devlink-galaga/)
 Local server
 --------------
 
-To start a local server, run `gulp` and navigate to [http://localhost:9000](http://localhost:9000).
-To build, run `gulp build`.
+To start a local server, run `npm start` and navigate to [http://localhost:9000](http://localhost:9000).
+
+To build, run `npm run build`.

@@ -2,7 +2,7 @@
 
 var gulp = require('gulp');
 var gutil = require('gulp-util');
-var clean = require('gulp-clean');
+var clean = require('gulp-rimraf');
 var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 var minifycss = require('gulp-minify-css');
