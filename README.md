@@ -3,6 +3,8 @@ devlink-galaga
 
 Adapted from a phaser.io example, this is a galaga-like game with some devlink flavor.
 
+This game is available to play [here](http://timmywil.github.io/devlink-galaga/).
+
 Local server
 --------------
 
