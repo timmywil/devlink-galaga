@@ -1,31 +1,31 @@
 {
-  "name": "devlink-galaga",
-  "description": "Galaga-like game with devlink flavor",
-  "version": "1.0.0",
-  "repository": "git://github.com/timmywil/devlink-galaga.git",
-  "dependencies": {},
-  "devDependencies": {
-    "bower": "*",
-    "gulp": "*",
-    "gulp-util": "*",
-    "gulp-rimraf": "*",
-    "gulp-concat": "*",
-    "gulp-download": "*",
-    "gulp-rename": "*",
-    "gulp-minify-css": "*",
-    "gulp-minify-html": "*",
-    "gulp-processhtml": "*",
-    "gulp-jshint": "*",
-    "gulp-uglify": "*",
-    "gulp-connect": "*",
-    "gulp-watch": "*",
-    "tiny-lr": "*"
-  },
-  "scripts": {
-    "postinstall": "bower install",
-    "start": "gulp",
+	"name": "devlink-galaga",
+	"description": "Galaga-like game with devlink flavor",
+	"version": "1.0.0",
+	"repository": "git://github.com/timmywil/devlink-galaga.git",
+	"dependencies": {},
+	"devDependencies": {
+		"bower": "*",
+		"gulp": "*",
+		"gulp-util": "*",
+		"gulp-rimraf": "*",
+		"gulp-concat": "*",
+		"gulp-download": "*",
+		"gulp-rename": "*",
+		"gulp-minify-css": "*",
+		"gulp-minify-html": "*",
+		"gulp-processhtml": "*",
+		"gulp-jshint": "*",
+		"gulp-uglify": "*",
+		"gulp-connect": "*",
+		"gulp-watch": "*",
+		"tiny-lr": "*"
+	},
+	"scripts": {
+		"postinstall": "bower install",
+		"start": "gulp",
 
-    "build": "gulp build",
-    "lint":  "gulp lint"
-  }
+		"build": "gulp build",
+		"lint": "gulp lint"
+	}
 }

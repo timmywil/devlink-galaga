@@ -34,6 +34,7 @@
 		game.load.spritesheet('kaboom', 'assets/explode.png', 128, 128);
 		game.load.image('starfield', 'assets/starfield.png');
 		game.load.image('background', 'assets/background2.png');
+		// Load speaker pics
 		loadSpeakers();
 	}
 
@@ -185,9 +186,8 @@
 	}
 
 	function render() {
-		// for (var i = 0; i < aliens.length; i++) {
-		// 	game.debug.body(aliens.children[i]);
-		// }
+		// Camera
+//		game.debug.cameraInfo(game.camera, 32, 100);
 	}
 
 	function collisionHandler (bullet, alien) {
@@ -287,23 +287,18 @@
 		}
 	}
 
-	// function resetBullet(bullet) {
-	// 	// Called if the bullet goes out of the screen
-	// 	bullet.kill();
-	// }
-
+	// A new level starts
 	function restart () {
-		//  A new level starts
 
-		//resets the life count
+		// resets the life count
 		lives.callAll('revive');
-		//  And brings the aliens back from the dead :)
+		// and brings the aliens back from the dead :)
 		aliens.removeAll();
 		createAliens();
 
-		//revives the player
+		// revives the player
 		player.revive();
-		//hides the text
+		// hides the text
 		stateText.visible = false;
 	}
 
