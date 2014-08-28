@@ -28,6 +28,7 @@
 	function preload() {
 		game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
 		game.scale.refresh();
+
 		game.load.image('bullet', 'assets/bullet.png');
 		game.load.image('enemyBullet', 'assets/enemy-bullet.png');
 		game.load.image('ship', 'assets/player.png');
