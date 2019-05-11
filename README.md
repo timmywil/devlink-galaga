@@ -1,6 +1,8 @@
 devlink-galaga
 ==============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/timmywil/devlink-galaga.svg)](https://greenkeeper.io/)
+
 Adapted from a phaser.io example, this is a galaga-like game with some devlink flavor.
 
 This game is available to play [here](http://timmywil.github.io/devlink-galaga/).
